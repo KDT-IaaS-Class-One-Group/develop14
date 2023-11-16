@@ -4,6 +4,8 @@ export function load(){
       return {type, props, children}
     }
     function component(stateData){
+      //  매개변수로 stateData로 놓았는데
+      //  상태데이타개념은 그냥 데이타랑 다른 개념이 뭘까?
       const menuItems = [];
       for(let i=0; i<stateData.length; i++){
         const item = stateData[i]
