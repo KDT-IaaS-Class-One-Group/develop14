@@ -17,7 +17,7 @@ export function load(){
         const menuItem = createElement('li',{},createElement('a',{href: item.hash}, item.text))
         menuItems.push(menuItem)
       }
-      const menu = createElement('ul',{}, ...menuItems)
+      const menu = createElement('ul',{}, ...menuItems) // 이게 뭔지 모르겠어요
       const content = createElement('div',{},'Hello React')
       return createElement('div',{},menu,content)
     }
