@@ -30,7 +30,10 @@ export function load(){
       }
       return element
     }
+
+    // test
     const stateData = [
+      // {hash: '#test', text: 'Test'},
       {hash: '#home', text:'Home'},
       {hash: '#about', text: 'About'},
       {hash: '#services', text: 'Services'},
